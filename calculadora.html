@@ -8,7 +8,7 @@
     <h1 align = "center"> Calculadora </h1>
     <form name = "formulario">
     <div class="container" align = "center" >
-      <input type="text " id="caja" name = "resultado" />
+      <input type="text " id="caja" name = "resultado" onkeypress="return validarNumero(event)"/>
       <table>
         <td><input type="button" onclick ="mostrarNum(value);" value="1"></td>
         <td><input type="button" onclick ="mostrarNum(value);"  value="2"></td>
