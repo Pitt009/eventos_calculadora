@@ -1,0 +1,14 @@
+body {
+    background-color: #ff80ff;
+    font-family: cursive;
+}
+h1 {
+  color: #003366;
+}
+
+input[type = button]{
+  background-color: #3CBC8D
+  width: 50%;
+
+
+}

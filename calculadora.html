@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
   <body>
     <h1 align = "center"> Calculadora </h1>
@@ -33,11 +34,13 @@
         <td><input type="button" onclick ="operacion(value);" value="="></td>
         <td><input type="button" onclick ="mostrarNum(value);" value="/"></td>
       </table>
-
+      <table>
+        <td><input type = "button" onclick="borrar(value);" value="C"></td>
+      </table>
 
     </div>
   </form>
-    <script src="js/calculadora.js">
+    <script src="assets/js/calculadora.js">
     </script>
   </body>
 </html>

@@ -17,3 +17,9 @@ function validarNumero(event){
     return false;
 }
 }
+
+function borrar() {
+    document.formulario.resultado.value = "";
+
+
+}
